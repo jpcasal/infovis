@@ -1,0 +1,52 @@
+A Tour through the Visualization Zoo: Los conceptos que me resultaron más novedosos, se indican con (*). Lo no indicado lo traigo para resumir el esqueleto.
+
+Wealth of valuable information: find ways to explore, relate, and communicate the data meaningfully- Focus on comprehension, memory, and decision making.
+
+Some general agreement: spatial position (as in a scatter plot or bar chart) leads to the most accurate decoding of numerical data
+
+Exotic (but practically useful!) forms of visual data representation with common “DNA”
+
+TIME-SERIES DATA
+NDEX CHARTS
+STACKED GRAPHS
+	-does not support negative numbers
+	-stacking may make it difficult to accurately interpret trends that lie atop other curves.
+SMALL MULTIPLES
+HORIZON GRAPHS *
+	-Although the horizon graph takes some time to learn, it has been found to be more effective than the standard plot when the chart sizes get quite small
+STATISTICAL DISTRIBUTIONS: exploratory data analysis
+	-STEM-AND-LEAF PLOTS
+	-Q-Q PLOTS
+	-SPLOM (SCATTER PLOT MATRIX)
+	-PARALLEL COORDINATES *
+MAPS
+	-FLOW MAPS. Charles Minard’s depiction of Napoleon’s ill-fated march on Moscow - Visto en curso con TENARIS
+	-CHOROPLETH MAPS
+		One common error is to encode raw data values (such as population) rather than using normalized values to produce a density map. 
+		Another issue is that one’s perception of the shaded value can also be affected by the underlying area of the geographic region.
+	-GRADUATED SYMBOL MAPS
+		Avoids confounding geographic area with data values *
+	-CARTOGRAMS
+HIERARCHIES
+	-NODE-LINK DIAGRAMS
+	-Cartesian Node-link Diagram - Using polar rather than Cartesian coordinates has a pleasing aesthetic, while using space more efficiently
+	-indented tree
+-ADJACENCY DIAGRAMS *
+	-Because the nodes are now space-filling, however, we can use a length encoding for the size of software classes and packages. 
+	-This reveals an additional dimension that would be difficult to show in a node-link diagram.
+	-The sunburst layout, is equivalent to the icicle layout, but in polar coordinates.
+-ENCLOSURE DIAGRAMS *
+	-a treemap recursively subdivides area into rectangles, by packing circles *
+NETWORKS
+	- A central challenge in graph visualization is computing an effective layout. Unrelated nodes must also be placed far enough apart to differentiate relationships.
+	- Minimizing the number of edge crossings.
+-FORCE-DIRECTED LAYOUTS *
+	-A common and intuitive approach to network layout is to model the graph as a physical system
+	-Nodes are charged particles that repel each other, and links are dampened springs that pull related nodes together. 
+	-A physical simulation of these forces then determines the node positions; approximation techniques that avoid computing all pairwise forces enable the layout of large numbers of nodes. 
+	-Problem of sorting the nodes in a manner that reveals underlying cluster structure is formally called seriation
+-MATRIX VIEWS
+	-Using color or saturation instead of text allows values associated with the links to be perceived more rapidly. 
+	-Seriation problem applies just as much to the matrix view *
+	-In matrix views, however, line crossings are impossible, quickly spot clusters and bridges. 
+	-interactive grouping -':deeper exploration of network structure.*
