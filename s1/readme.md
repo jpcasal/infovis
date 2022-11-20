@@ -7,8 +7,7 @@
   <title>ECD</title>
 </head>
 <body>
- <h3 id="curso">ITBA ECD 2022</h3>    
-  <h3 id="alumno">Juan Pablo Casal</h3> 
+ <h3 id="curso">ITBA ECD 2022 - Juan Pablo Casal</h3> 
   <h1><a href="https://jpcasal.github.io/infovis/">infovis</a></h1>
       
  <h3 id="week43">Semana 1</h3>
@@ -20,7 +19,7 @@
   
   https://jpcasal.github.io//infovis/s1/bump.html
   
-  <p>fuente de datos <a href="https://www.makeovermonday.co.uk/data/">Source</a></p>
+  <p>fuente de datos <a href="https://www.makeovermonday.co.uk/data/">Makeover Monday</a></p>
    <h3 id="week43"></h3>
   </body>
 </html>
